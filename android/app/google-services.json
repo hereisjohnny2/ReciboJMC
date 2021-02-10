@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "265617531059",
+    "project_id": "recibopdf",
+    "storage_bucket": "recibopdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265617531059:android:e6ac78d6808313ad96d0c6",
+        "android_client_info": {
+          "package_name": "com.example.ReciboPDF"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265617531059-hjdqsch9tj07ni5mgcq13o03j0dfu8n5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ReciboPDF",
+            "certificate_hash": "e7990bf9602ba63ba949bb3c73692d42c051ad0d"
+          }
+        },
+        {
+          "client_id": "265617531059-7ait1ge4pe0mcd22tjurogmlp4fsagg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbvIviw_b8xvjikNVy0MA7DXvMGKLnE3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265617531059-7ait1ge4pe0mcd22tjurogmlp4fsagg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
