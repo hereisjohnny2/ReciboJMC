@@ -66,7 +66,8 @@ class _PageInquilinoState extends State<PageInquilino> {
                     '${inquilino.endereco} - ${inquilino.complemento} - ${inquilino.cidade}',
                     18.0),
                 buildInfo(
-                    'R\$${inquilino.valorAluguel.toStringAsFixed(2)}', 21.0),
+                    'R\$${inquilino.valorAluguel != null ? inquilino.valorAluguel.toStringAsFixed(2) : "Não Possui :("}',
+                    21.0),
               ],
             ),
             Row(
