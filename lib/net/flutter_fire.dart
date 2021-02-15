@@ -24,7 +24,7 @@ Future<bool> addInquilino(Inquilino inquilino) async {
       if (!snapshot.exists) {
         docRef.set({
           "nome": inquilino.nome,
-          "endereco": inquilino.endereco,
+          "enderco": inquilino.endereco,
           "complemento": inquilino.complemento,
           "cidade": inquilino.cidade,
           "valor_aluguel": inquilino.valorAluguel,
@@ -33,7 +33,7 @@ Future<bool> addInquilino(Inquilino inquilino) async {
       }
       transaction.update(docRef, {
         "nome": inquilino.nome,
-        "endereco": inquilino.endereco,
+        "enderco": inquilino.endereco,
         "complemento": inquilino.complemento,
         "cidade": inquilino.cidade,
         "valor_aluguel": inquilino.valorAluguel,
