@@ -53,23 +53,23 @@ class _ListaInquilinosState extends State<ListaInquilinos> {
             onPressed: () {
               setState(() {
                 if (this.icone.icon == Icons.search) {
-                  this.icone = new Icon(Icons.close);
-                  this.appBarTitle = new TextField(
+                  this.icone = Icon(Icons.close);
+                  this.appBarTitle = TextField(
                     controller: searchController,
-                    decoration: new InputDecoration(
-                      prefixIcon: new Icon(
+                    decoration: InputDecoration(
+                      prefixIcon: Icon(
                         Icons.search,
                         color: Colors.white,
                       ),
                       hintText: "Buscar...",
-                      hintStyle: new TextStyle(color: Colors.white),
+                      hintStyle: TextStyle(color: Colors.white),
                     ),
                     style: TextStyle(color: Colors.white),
                     autofocus: true,
                   );
                 } else {
-                  this.icone = new Icon(Icons.search);
-                  this.appBarTitle = new Text("Inquilinos");
+                  this.icone = Icon(Icons.search);
+                  this.appBarTitle = Text("Inquilinos");
                   _inquilinosFiltrados = _inquilinos;
                   searchController.clear();
                 }
@@ -137,12 +137,6 @@ class _ListaInquilinosState extends State<ListaInquilinos> {
               return Divider();
             },
           );
-          // return ListView.builder(
-          //   itemCount: _inquilinos.count,
-          //   itemBuilder: (context, index) {
-          //     return InquilinoTile(_inquilinos.byIndex(index));
-          //   },
-          // );
         },
       ),
       floatingActionButton: FloatingActionButton(
